@@ -49,5 +49,25 @@
 
 
 
+### Rækkefølge - Datahåndtering II
+
+- Recoding categories
+- Introduction to factors
+- Exercise: Factors
+- Reading Stata-data with haven
+- Joining and pivoting (only joining)
+- Exercise: Read and merge Stata data
+- Tables and summaries (group bys)
+- Exercise: Summaries
+- Dates and time
+- Exercise: Dates
+
+
+
 ## Emner - modellering 
 
+- [x] (rest af datahåndtering)
+- [x] Visualizing with ggplot2
+- [x] Exercise: Visualize with ggplot2
+- [ ] Uafhængighedstest
+- [ ] Opstilling af simpel model
