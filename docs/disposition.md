@@ -25,7 +25,7 @@
   
 - [x] Datoer og tid (med lubridate)
 
-- [ ] Indlæsning af Stata-data med haven
+- [x] Indlæsning af Stata-data med haven
 
   - haven labelled
 

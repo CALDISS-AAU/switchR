@@ -38,6 +38,7 @@ Repository for workshop series "switchR".
 
 ## Statistical modelling with R I
 
+1. A note on factors
 1. [Joining and pivoting](https://github.com/quasidemic/teachR/blob/master/notebooks/teachR_join-pivot.ipynb)
 2. [Exercise: Read and merge Stata data](https://github.com/quasidemic/teachR/blob/master/notebooks/teachR_exercises.ipynb)
 3. [Visualizing with ggplot2](https://github.com/quasidemic/teachR/blob/master/notebooks/teachR_visualize-ggplot2.ipynb)
