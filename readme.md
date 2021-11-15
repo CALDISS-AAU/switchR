@@ -40,7 +40,8 @@ Repository for workshop series "switchR".
 
 1. A note on factors
 1. [Joining and pivoting](https://github.com/quasidemic/teachR/blob/master/notebooks/teachR_join-pivot.ipynb)
-2. [Exercise: Read and merge Stata data](https://github.com/quasidemic/teachR/blob/master/notebooks/teachR_exercises.ipynb)
-3. [Visualizing with ggplot2](https://github.com/quasidemic/teachR/blob/master/notebooks/teachR_visualize-ggplot2.ipynb)
+2. [Tables and summaries](https://github.com/quasidemic/teachR/blob/master/notebooks/teachR_tables-summaries.ipynb) (group by's)
+2. [Visualizing with ggplot2](https://github.com/quasidemic/teachR/blob/master/notebooks/teachR_visualize-ggplot2.ipynb)
 4. [Exercise: Visualizing with ggplot2](https://github.com/quasidemic/teachR/blob/master/notebooks/teachR_exercises.ipynb)
-
+4. [Hypothesis testing](https://github.com/quasidemic/teachR/blob/master/notebooks/teachR_statistics-intro.ipynb)
+4. [Exercise: T-test](https://github.com/quasidemic/teachR/blob/master/notebooks/teachR_exercises.ipynb)

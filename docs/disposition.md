@@ -66,8 +66,12 @@
 
 ## Emner - modellering 
 
+- Opfølgning factors - brug det ikke i datahåndtering, medmindre I har brug for det
+  - Har betydning for modeller og plots
+- Group bys
+
 - [x] (rest af datahåndtering)
 - [x] Visualizing with ggplot2
 - [x] Exercise: Visualize with ggplot2
-- [ ] Uafhængighedstest
-- [ ] Opstilling af simpel model
+- [x] Uafhængighedstest
+- [x] Opstilling af simpel model
