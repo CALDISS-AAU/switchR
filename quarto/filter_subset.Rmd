@@ -1,0 +1,37 @@
+---
+title: "Data handling with R I"
+author: "Kristian Gade Kjelmann"
+output: 
+  revealjs::revealjs_presentation:
+    theme: simple
+    css: stylings.css
+    highlight: default
+    transition: slide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+ess18 <- read_csv('https://github.com/CALDISS-AAU/workshop_R-intro/raw/master/data/ESS2018DK_subset.csv')
+```
+
+## Filtering and subsetting
+
+R supports filtering and subsetting from "base" operations but there are packages with more intuitive functions (like the packages in tidyverse: <https://www.tidyverse.org/>).
+
+### Compare and contrast
+
+These two commands achieve the same result. Which is more intuitive?
+
+```{r}
+subset <- ess18[ess18$gndr == 'Male', c('gndr', 'prtvtddk')]
+head(subset)
+```
+
+```{r}
+library(dplyr)
+subset <- ess18 %>%
+    filter(gndr == 'Male') %>%
+    select('gndr', 'prtvtddk')
+head(subset)
+```
